@@ -1,0 +1,1094 @@
+; Jacking in...
+; Connecting using "Clojure (projectless)" project type.
+; Starting Jack-in: (cd /home/m0n4d/Documents/DocSortIA/metadata-extractor; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]")
+; Using host:port localhost:45185 ...
+; Hooking up nREPL sessions on port 45185...
+; Connected session: clj, port: 45185
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
+; Evaluating file: parsejson.clj
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+; Evaluating file: parsejson.clj
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+nil
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+; Syntax error (ClassNotFoundException) compiling at (src/parsejson.clj:0:0).
+; resultat_ocr3.json
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/demo-pipeline
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+nil
+clj꞉parsejson꞉> 
+#'parsejson/load-ocr-result
+clj꞉parsejson꞉> 
+#'parsejson/Parsing
+clj꞉parsejson꞉> 
+#'parsejson/Grouping
+clj꞉parsejson꞉> 
+#'parsejson/Matching
+clj꞉parsejson꞉> 
+#'parsejson/classify
+clj꞉parsejson꞉> 
+#'parsejson/Lexing
+clj꞉parsejson꞉> 
+#'parsejson/normalise-t-v
+clj꞉parsejson꞉> 
+#'parsejson/normalisation
+clj꞉parsejson꞉> 
+#'parsejson/has-word?
+clj꞉parsejson꞉> 
+#'parsejson/detect-doc-type
+clj꞉parsejson꞉> 
+#'parsejson/match-Ticket
+clj꞉parsejson꞉> 
+#'parsejson/chunking
+clj꞉parsejson꞉> 
+#'parsejson/run-extraction
+clj꞉parsejson꞉> 
+#'parsejson/demo-pipeline
+clj꞉parsejson꞉> 
+#'parsejson/demo-pipeline
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+#'parsejson/-main
+clj꞉parsejson꞉> 
+true
+clj꞉parsejson꞉> 
+#'parsejson/raw
+clj꞉parsejson꞉> 
+409
+clj꞉parsejson꞉> 
+; [CLOJURE] Données chargées. Traitement en cours...
+; Logique générique
+(({:t :word, :v "author"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "date"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "linda"}
+  {:t :num, :v "5"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "25"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "95"}
+  {:t :word, :v "normal"}
+  {:t :word, :v "certer"}
+  {:t :num, :v "4"}
+  {:t :sep, :v ":"}
+  {:t :num, :v "25"}
+  {:t :word, :v "at"}
+  {:t :word, :v "fm"}
+  {:t :word, :v "bw"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "c"}
+  {:t :num, :v "2"})
+ ({:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "tc"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "priority"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "walt"}
+  {:t :word, :v "roger"}
+  {:t :word, :v "rick"}
+  {:t :word, :v "jim"}
+  {:t :word, :v "hendricks"}
+  {:t :word, :v "carpenter"}
+  {:t :word, :v "gonterman"}
+  {:t :word, :v "black"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"}
+  {:t :word, :v "bwmrdl"})
+ ({:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "nick"}
+  {:t :word, :v "drew"}
+  {:t :word, :v "tilford"}
+  {:t :word, :v "dieter"}
+  {:t :word, :v "mcmurtrie"}
+  {:t :word, :v "wilkerson"}
+  {:t :word, :v "wogerbauer"}
+  {:t :word, :v "riehl"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"})
+ ({:t :word, :v "subject"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "since"}
+  {:t :word, :v "kool"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "the"}
+  {:t :word, :v "cancelled"}
+  {:t :sep, :v ","}
+  {:t :word, :v "cpt"}
+  {:t :word, :v "the"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "decision"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "review"}
+  {:t :word, :v "aging"}
+  {:t :word, :v "meeting"}
+  {:t :word, :v "was"}
+  {:t :word, :v "message"}
+  {:t :word, :v "made"}
+  {:t :word, :v "issue"}
+  {:t :word, :v "that"}
+  {:t :word, :v "contents"}
+  {:t :word, :v "to"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "issue"}
+  {:t :word, :v "had"}
+  {:t :num, :v "1994"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "53"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "54"}
+  {:t :word, :v "d"}
+  {:t :word, :v "been"}
+  {:t :word, :v "a"}
+  {:t :word, :v "topline"}
+  {:t :word, :v "scheduled"}
+  {:t :word, :v "report"}
+  {:t :word, :v "for"}
+  {:t :word, :v "of"}
+  {:t :word, :v "may"})
+ ({:t :word, :v "if"}
+  {:t :num, :v "24"}
+  {:t :word, :v "have"}
+  {:t :word, :v "results"}
+  {:t :word, :v "was"}
+  {:t :word, :v "you"}
+  {:t :word, :v "a"}
+  {:t :word, :v "have"}
+  {:t :word, :v "chance"}
+  {:t :word, :v "relative"}
+  {:t :word, :v "any"}
+  {:t :word, :v "to"}
+  {:t :word, :v "questions"}
+  {:t :sep, :v "."}
+  {:t :word, :v "to"}
+  {:t :word, :v "review"}
+  {:t :word, :v "the"}
+  {:t :word, :v "subject"}
+  {:t :word, :v "this"}
+  {:t :word, :v "thanks"}
+  {:t :sep, :v "!"}
+  {:t :word, :v "topline"}
+  {:t :sep, :v ","}
+  {:t :word, :v "product"}
+  {:t :word, :v "linda"}
+  {:t :word, :v "please"}
+  {:t :word, :v "tests"}
+  {:t :word, :v "feel"}
+  {:t :word, :v "via"}
+  {:t :word, :v "ccmail"}
+  {:t :sep, :v "."}
+  {:t :word, :v "free"}
+  {:t :word, :v "to"}
+  {:t :word, :v "contact"}
+  {:t :word, :v "once"}
+  {:t :word, :v "you"}
+  {:t :word, :v "me"})
+ ({:t :word, :v "the"}
+  {:t :num, :v "94"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "53"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "hypothesis"}
+  {:t :word, :v "kool"}
+  {:t :sep, :v "("}
+  {:t :num, :v "12"}
+  {:t :word, :v "that"}
+  {:t :word, :v "mos"}
+  {:t :word, :v "age"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "produced"}
+  {:t :sep, :v "("}
+  {:t :num, :v "24"}
+  {:t :word, :v "mcs"}
+  {:t :word, :v "from"}
+  {:t :word, :v "age"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "among"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "ft"}
+  {:t :word, :v "for"}
+  {:t :word, :v "ks"}
+  {:t :word, :v "the"}
+  {:t :word, :v "smokers"})
+ ({:t :word, :v "longer"}
+  {:t :word, :v "there"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "was"}
+  {:t :word, :v "period"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "no"}
+  {:t :word, :v "significant"}
+  {:t :word, :v "will"}
+  {:t :word, :v "for"}
+  {:t :word, :v "a"}
+  {:t :word, :v "be"}
+  {:t :word, :v "shorter"}
+  {:t :word, :v "superior"}
+  {:t :word, :v "difference"}
+  {:t :word, :v "duration"}
+  {:t :word, :v "to"}
+  {:t :word, :v "those"}
+  {:t :word, :v "in"}
+  {:t :word, :v "is"}
+  {:t :word, :v "preference"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "rejected"}
+  {:t :sep, :v "."}
+  {:t :word, :v "for"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "from"}
+  {:t :num, :v "12"}
+  {:t :word, :v "month"})
+ ({:t :word, :v "aged"}
+  {:t :word, :v "there"}
+  {:t :word, :v "of"}
+  {:t :word, :v "the"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "was"}
+  {:t :word, :v "two"}
+  {:t :word, :v "also"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "no"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "products"}
+  {:t :word, :v "significan"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "24"}
+  {:t :word, :v "anong"}
+  {:t :word, :v "month"}
+  {:t :word, :v "diffezence"}
+  {:t :word, :v "total"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "between"}
+  {:t :word, :v "among"}
+  {:t :word, :v "the"}
+  {:t :word, :v "total"}
+  {:t :word, :v "attribute"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "ratings"})
+ ({:t :word, :v "in"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "ratings"}
+  {:t :sep, :v "."}
+  {:t :word, :v "terms"}
+  {:t :word, :v "of"}
+  {:t :word, :v "of"}
+  {:t :word, :v "both"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "suitability"}
+  {:t :word, :v "products"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "of"}
+  {:t :word, :v "were"}
+  {:t :word, :v "both"}
+  {:t :word, :v "strength"}
+  {:t :sep, :v ","}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "products"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "as"}
+  {:t :word, :v "being"}
+  {:t :word, :v "of"}
+  {:t :word, :v "received"}
+  {:t :word, :v "menthol"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "comparable"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "in"}
+  {:t :word, :v "and"}
+  {:t :word, :v "terms"})
+ ({:t :word, :v "perceived"}
+  {:t :word, :v "of"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :sep, :v ","}
+  {:t :word, :v "strength"}
+  {:t :word, :v "as"}
+  {:t :word, :v "and"}
+  {:t :word, :v "having"}
+  {:t :word, :v "anount"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "of"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v "."}
+  {:t :word, :v "less"}
+  {:t :word, :v "menthol"}
+  {:t :word, :v "both"}
+  {:t :word, :v "products"}
+  {:t :word, :v "taste"}
+  {:t :word, :v "than"}
+  {:t :word, :v "were"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "also"})
+ ({:t :word, :v "in"}
+  {:t :num, :v "94"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "54"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "this"}
+  {:t :word, :v "vic"}
+  {:t :word, :v "test"}
+  {:t :sep, :v ","}
+  {:t :sep, :v "("}
+  {:t :num, :v "12"}
+  {:t :word, :v "the"}
+  {:t :word, :v "mos"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "hypothesis"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "vic"}
+  {:t :sep, :v "("}
+  {:t :num, :v "24"}
+  {:t :word, :v "that"}
+  {:t :word, :v "mos"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "among"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "nm"}
+  {:t :word, :v "ft"}
+  {:t :word, :v "from"}
+  {:t :word, :v "ks"}
+  {:t :word, :v "smokers"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "aged"})
+ ({:t :word, :v "for"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "the"}
+  {:t :word, :v "longer"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "for"}
+  {:t :word, :v "period"}
+  {:t :word, :v "a"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "shorter"}
+  {:t :word, :v "will"}
+  {:t :word, :v "be"}
+  {:t :word, :v "duration"}
+  {:t :word, :v "from"}
+  {:t :word, :v "superior"}
+  {:t :word, :v "the"}
+  {:t :word, :v "is"}
+  {:t :word, :v "longer"}
+  {:t :word, :v "to"}
+  {:t :word, :v "accepted"}
+  {:t :sep, :v "."}
+  {:t :word, :v "those"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "were"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "from"})
+ ({:t :word, :v "viceroy"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "which"}
+  {:t :word, :v "was"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "aged"}
+  {:t :num, :v "12"}
+  {:t :word, :v "month"}
+  {:t :word, :v "preferred"}
+  {:t :word, :v "over"}
+  {:t :word, :v "a"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "short"}
+  {:t :word, :v "over"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "time"}
+  {:t :word, :v "vicercy"}
+  {:t :word, :v "period"}
+  {:t :word, :v "was"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "among"}
+  {:t :word, :v "total"}
+  {:t :word, :v "as"}
+  {:t :word, :v "made"}
+  {:t :word, :v "being"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "from"}
+  {:t :word, :v "less"}
+  {:t :word, :v "having"}
+  {:t :word, :v "the"}
+  {:t :word, :v "likable"}
+  {:t :word, :v "less"})
+ ({:t :word, :v "overall"}
+  {:t :sep, :v ","}
+  {:t :word, :v "being"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "harder"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "less"}
+  {:t :word, :v "to"}
+  {:t :word, :v "likabie"}
+  {:t :word, :v "less"}
+  {:t :word, :v "draw"}
+  {:t :sep, :v "."}
+  {:t :word, :v "good"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "of"}
+  {:t :word, :v "own"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "brand"}
+  {:t :sep, :v ","}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "less"}
+  {:t :word, :v "and"}
+  {:t :word, :v "and"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "satisfying"}
+  {:t :sep, :v ","}
+  {:t :word, :v "was"}
+  {:t :word, :v "of"}
+  {:t :word, :v "also"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "as"}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "as"}
+  {:t :word, :v "the"})
+ ({:t :word, :v "in"}
+  {:t :word, :v "month"}
+  {:t :word, :v "ratings"}
+  {:t :word, :v "than"}
+  {:t :word, :v "terms"}
+  {:t :word, :v "the"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "for"}
+  {:t :word, :v "of"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "suitability"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "were"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "score"}
+  {:t :num, :v "12"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "month"}
+  {:t :word, :v "strength"}
+  {:t :word, :v "of"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :sep, :v "."}
+  {:t :num, :v "4"}
+  {:t :sep, :v ","}
+  {:t :word, :v "aged"}
+  {:t :word, :v "while"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "the"}
+  {:t :word, :v "ratings"}
+  {:t :word, :v "were"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "for"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "lower"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "24"})
+ ({:t :num, :v "465659433"}))
+clj꞉parsejson꞉> 
+; Syntax error compiling at (src/parsejson.clj:135:18).
+; Unable to resolve symbol: match-mail in this context
+clj꞉parsejson꞉> 
+#'parsejson/match-mail
+clj꞉parsejson꞉> 
+#'parsejson/match-Ticket
+clj꞉parsejson꞉> 
+; [CLOJURE] Données chargées. Traitement en cours...
+; Logique générique
+(({:t :word, :v "author"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "date"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "linda"}
+  {:t :num, :v "5"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "25"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "95"}
+  {:t :word, :v "normal"}
+  {:t :word, :v "certer"}
+  {:t :num, :v "4"}
+  {:t :sep, :v ":"}
+  {:t :num, :v "25"}
+  {:t :word, :v "at"}
+  {:t :word, :v "fm"}
+  {:t :word, :v "bw"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "c"}
+  {:t :num, :v "2"})
+ ({:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "tc"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "priority"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "walt"}
+  {:t :word, :v "roger"}
+  {:t :word, :v "rick"}
+  {:t :word, :v "jim"}
+  {:t :word, :v "hendricks"}
+  {:t :word, :v "carpenter"}
+  {:t :word, :v "gonterman"}
+  {:t :word, :v "black"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"}
+  {:t :word, :v "bwmrdl"})
+ ({:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "to"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "nick"}
+  {:t :word, :v "drew"}
+  {:t :word, :v "tilford"}
+  {:t :word, :v "dieter"}
+  {:t :word, :v "mcmurtrie"}
+  {:t :word, :v "wilkerson"}
+  {:t :word, :v "wogerbauer"}
+  {:t :word, :v "riehl"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "bwmrdl"}
+  {:t :word, :v "at"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"}
+  {:t :word, :v "bwlpac"}
+  {:t :num, :v "7"})
+ ({:t :word, :v "subject"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "since"}
+  {:t :word, :v "kool"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "the"}
+  {:t :word, :v "cancelled"}
+  {:t :sep, :v ","}
+  {:t :word, :v "cpt"}
+  {:t :word, :v "the"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "decision"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "review"}
+  {:t :word, :v "aging"}
+  {:t :word, :v "meeting"}
+  {:t :word, :v "was"}
+  {:t :word, :v "message"}
+  {:t :word, :v "made"}
+  {:t :word, :v "issue"}
+  {:t :word, :v "that"}
+  {:t :word, :v "contents"}
+  {:t :word, :v "to"}
+  {:t :sep, :v "-"}
+  {:t :word, :v "issue"}
+  {:t :word, :v "had"}
+  {:t :num, :v "1994"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "53"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "54"}
+  {:t :word, :v "d"}
+  {:t :word, :v "been"}
+  {:t :word, :v "a"}
+  {:t :word, :v "topline"}
+  {:t :word, :v "scheduled"}
+  {:t :word, :v "report"}
+  {:t :word, :v "for"}
+  {:t :word, :v "of"}
+  {:t :word, :v "may"})
+ ({:t :word, :v "if"}
+  {:t :num, :v "24"}
+  {:t :word, :v "have"}
+  {:t :word, :v "results"}
+  {:t :word, :v "was"}
+  {:t :word, :v "you"}
+  {:t :word, :v "a"}
+  {:t :word, :v "have"}
+  {:t :word, :v "chance"}
+  {:t :word, :v "relative"}
+  {:t :word, :v "any"}
+  {:t :word, :v "to"}
+  {:t :word, :v "questions"}
+  {:t :sep, :v "."}
+  {:t :word, :v "to"}
+  {:t :word, :v "review"}
+  {:t :word, :v "the"}
+  {:t :word, :v "subject"}
+  {:t :word, :v "this"}
+  {:t :word, :v "thanks"}
+  {:t :sep, :v "!"}
+  {:t :word, :v "topline"}
+  {:t :sep, :v ","}
+  {:t :word, :v "product"}
+  {:t :word, :v "linda"}
+  {:t :word, :v "please"}
+  {:t :word, :v "tests"}
+  {:t :word, :v "feel"}
+  {:t :word, :v "via"}
+  {:t :word, :v "ccmail"}
+  {:t :sep, :v "."}
+  {:t :word, :v "free"}
+  {:t :word, :v "to"}
+  {:t :word, :v "contact"}
+  {:t :word, :v "once"}
+  {:t :word, :v "you"}
+  {:t :word, :v "me"})
+ ({:t :word, :v "the"}
+  {:t :num, :v "94"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "53"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "hypothesis"}
+  {:t :word, :v "kool"}
+  {:t :sep, :v "("}
+  {:t :num, :v "12"}
+  {:t :word, :v "that"}
+  {:t :word, :v "mos"}
+  {:t :word, :v "age"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "produced"}
+  {:t :sep, :v "("}
+  {:t :num, :v "24"}
+  {:t :word, :v "mcs"}
+  {:t :word, :v "from"}
+  {:t :word, :v "age"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "among"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "ft"}
+  {:t :word, :v "for"}
+  {:t :word, :v "ks"}
+  {:t :word, :v "the"}
+  {:t :word, :v "smokers"})
+ ({:t :word, :v "longer"}
+  {:t :word, :v "there"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "was"}
+  {:t :word, :v "period"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "no"}
+  {:t :word, :v "significant"}
+  {:t :word, :v "will"}
+  {:t :word, :v "for"}
+  {:t :word, :v "a"}
+  {:t :word, :v "be"}
+  {:t :word, :v "shorter"}
+  {:t :word, :v "superior"}
+  {:t :word, :v "difference"}
+  {:t :word, :v "duration"}
+  {:t :word, :v "to"}
+  {:t :word, :v "those"}
+  {:t :word, :v "in"}
+  {:t :word, :v "is"}
+  {:t :word, :v "preference"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "rejected"}
+  {:t :sep, :v "."}
+  {:t :word, :v "for"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "from"}
+  {:t :num, :v "12"}
+  {:t :word, :v "month"})
+ ({:t :word, :v "aged"}
+  {:t :word, :v "there"}
+  {:t :word, :v "of"}
+  {:t :word, :v "the"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "was"}
+  {:t :word, :v "two"}
+  {:t :word, :v "also"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "no"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "products"}
+  {:t :word, :v "significan"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "24"}
+  {:t :word, :v "anong"}
+  {:t :word, :v "month"}
+  {:t :word, :v "diffezence"}
+  {:t :word, :v "total"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "between"}
+  {:t :word, :v "among"}
+  {:t :word, :v "the"}
+  {:t :word, :v "total"}
+  {:t :word, :v "attribute"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "ratings"})
+ ({:t :word, :v "in"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "ratings"}
+  {:t :sep, :v "."}
+  {:t :word, :v "terms"}
+  {:t :word, :v "of"}
+  {:t :word, :v "of"}
+  {:t :word, :v "both"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "suitability"}
+  {:t :word, :v "products"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "of"}
+  {:t :word, :v "were"}
+  {:t :word, :v "both"}
+  {:t :word, :v "strength"}
+  {:t :sep, :v ","}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "kool"}
+  {:t :word, :v "products"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "as"}
+  {:t :word, :v "being"}
+  {:t :word, :v "of"}
+  {:t :word, :v "received"}
+  {:t :word, :v "menthol"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "comparable"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "in"}
+  {:t :word, :v "and"}
+  {:t :word, :v "terms"})
+ ({:t :word, :v "perceived"}
+  {:t :word, :v "of"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :sep, :v ","}
+  {:t :word, :v "strength"}
+  {:t :word, :v "as"}
+  {:t :word, :v "and"}
+  {:t :word, :v "having"}
+  {:t :word, :v "anount"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "of"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v "."}
+  {:t :word, :v "less"}
+  {:t :word, :v "menthol"}
+  {:t :word, :v "both"}
+  {:t :word, :v "products"}
+  {:t :word, :v "taste"}
+  {:t :word, :v "than"}
+  {:t :word, :v "were"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "also"})
+ ({:t :word, :v "in"}
+  {:t :num, :v "94"}
+  {:t :sep, :v "-"}
+  {:t :num, :v "54"}
+  {:t :sep, :v ":"}
+  {:t :word, :v "this"}
+  {:t :word, :v "vic"}
+  {:t :word, :v "test"}
+  {:t :sep, :v ","}
+  {:t :sep, :v "("}
+  {:t :num, :v "12"}
+  {:t :word, :v "the"}
+  {:t :word, :v "mos"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "hypothesis"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "vic"}
+  {:t :sep, :v "("}
+  {:t :num, :v "24"}
+  {:t :word, :v "that"}
+  {:t :word, :v "mos"}
+  {:t :sep, :v ")"}
+  {:t :word, :v "among"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "nm"}
+  {:t :word, :v "ft"}
+  {:t :word, :v "from"}
+  {:t :word, :v "ks"}
+  {:t :word, :v "smokers"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "aged"})
+ ({:t :word, :v "for"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "tobaccos"}
+  {:t :word, :v "the"}
+  {:t :word, :v "longer"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "for"}
+  {:t :word, :v "period"}
+  {:t :word, :v "a"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "shorter"}
+  {:t :word, :v "will"}
+  {:t :word, :v "be"}
+  {:t :word, :v "duration"}
+  {:t :word, :v "from"}
+  {:t :word, :v "superior"}
+  {:t :word, :v "the"}
+  {:t :word, :v "is"}
+  {:t :word, :v "longer"}
+  {:t :word, :v "to"}
+  {:t :word, :v "accepted"}
+  {:t :sep, :v "."}
+  {:t :word, :v "those"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "were"}
+  {:t :word, :v "produced"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "from"})
+ ({:t :word, :v "viceroy"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "which"}
+  {:t :word, :v "was"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "aged"}
+  {:t :num, :v "12"}
+  {:t :word, :v "month"}
+  {:t :word, :v "preferred"}
+  {:t :word, :v "over"}
+  {:t :word, :v "a"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "short"}
+  {:t :word, :v "over"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "time"}
+  {:t :word, :v "vicercy"}
+  {:t :word, :v "period"}
+  {:t :word, :v "was"}
+  {:t :word, :v "cigarettes"}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "among"}
+  {:t :word, :v "total"}
+  {:t :word, :v "as"}
+  {:t :word, :v "made"}
+  {:t :word, :v "being"}
+  {:t :word, :v "smokers"}
+  {:t :sep, :v "."}
+  {:t :word, :v "from"}
+  {:t :word, :v "less"}
+  {:t :word, :v "having"}
+  {:t :word, :v "the"}
+  {:t :word, :v "likable"}
+  {:t :word, :v "less"})
+ ({:t :word, :v "overall"}
+  {:t :sep, :v ","}
+  {:t :word, :v "being"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "harder"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "less"}
+  {:t :word, :v "to"}
+  {:t :word, :v "likabie"}
+  {:t :word, :v "less"}
+  {:t :word, :v "draw"}
+  {:t :sep, :v "."}
+  {:t :word, :v "good"}
+  {:t :word, :v "vs"}
+  {:t :word, :v "of"}
+  {:t :word, :v "own"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "brand"}
+  {:t :sep, :v ","}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "less"}
+  {:t :word, :v "and"}
+  {:t :word, :v "and"}
+  {:t :word, :v "amount"}
+  {:t :word, :v "satisfying"}
+  {:t :sep, :v ","}
+  {:t :word, :v "was"}
+  {:t :word, :v "of"}
+  {:t :word, :v "also"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "as"}
+  {:t :word, :v "perceived"}
+  {:t :word, :v "taste"}
+  {:t :sep, :v ","}
+  {:t :word, :v "as"}
+  {:t :word, :v "the"})
+ ({:t :word, :v "in"}
+  {:t :word, :v "month"}
+  {:t :word, :v "ratings"}
+  {:t :word, :v "than"}
+  {:t :word, :v "terms"}
+  {:t :word, :v "the"}
+  {:t :word, :v "aged"}
+  {:t :word, :v "for"}
+  {:t :word, :v "of"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "suitability"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "were"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :word, :v "score"}
+  {:t :num, :v "12"}
+  {:t :sep, :v "\""}
+  {:t :word, :v "just"}
+  {:t :word, :v "month"}
+  {:t :word, :v "strength"}
+  {:t :word, :v "of"}
+  {:t :word, :v "right"}
+  {:t :sep, :v "\""}
+  {:t :sep, :v "."}
+  {:t :num, :v "4"}
+  {:t :sep, :v ","}
+  {:t :word, :v "aged"}
+  {:t :word, :v "while"}
+  {:t :word, :v "tobacco"}
+  {:t :word, :v "the"}
+  {:t :word, :v "ratings"}
+  {:t :word, :v "were"}
+  {:t :word, :v "significantly"}
+  {:t :word, :v "for"}
+  {:t :word, :v "viceroy"}
+  {:t :word, :v "lower"}
+  {:t :word, :v "w"}
+  {:t :sep, :v "/"}
+  {:t :num, :v "24"})
+ ({:t :num, :v "465659433"}))
+clj꞉parsejson꞉> 
+; Jacking in...
+; Connecting using "Clojure (projectless)" project type.
+; Starting Jack-in: (cd /home/m0n4d/Documents/DocSortIA/metadata-extractor; clojure -Sdeps '{:deps {nrepl/nrepl {:mvn/version,"1.5.1"},cider/cider-nrepl {:mvn/version,"0.58.0"}}}' -M -m nrepl.cmdline --middleware "[cider.nrepl/cider-middleware]")
+; Using host:port localhost:42087 ...
+; Hooking up nREPL sessions on port 42087...
+; Connected session: clj, port: 42087
+; Evaluating code from settings: 'calva.autoEvaluateCode.onConnect.clj'
+nil
+clj꞉user꞉> 
+"Please see https://calva.io/output/#about-stdout-in-the-repl-window
+about why stdout printed to this file is prepended with `;` to be line comments."
+clj꞉user꞉> 
+; Jack-in done.
+clj꞉user꞉> 
